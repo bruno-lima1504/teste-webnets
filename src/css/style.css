@@ -1,0 +1,555 @@
+body {
+    
+    font-family: 'Advent Pro', sans-serif; 
+    max-width: 1800px;    
+    margin: auto;
+    font-weight: 700;
+}
+
+/* Estilo Cabeçalho */
+
+.header-container {
+    height: 180px;    
+    display: flex;
+    flex-direction: column;        
+}
+
+.header-container .accessibility {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+    position: fixed;    
+    background-color: #0052A4;
+    width: 1800px;
+    height: 40px;
+    z-index: 1;
+}
+
+.header-container .accessibility button {
+    color: #FFF;    
+    background-color: #002C85;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px; 
+    cursor: pointer;
+}
+
+.header-container .accessibility a{
+    color: #FFF;
+    margin: 10px;
+}
+
+.header-container section {
+    display: flex;
+    height: 75%;    
+    padding-top: 40px;
+    padding-left: 160px;
+    padding-right: 160px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container section .logo {
+    height: 100%;
+    display: flex;    
+    flex-direction: row;
+    align-items: center;
+    color: #002C85;
+    font-weight: 700;    
+}
+
+.header-container section .logo img {
+    height: 80%;
+}
+
+.header-container section .search-social-data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.header-container .search-social-data .search-social {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .search-social-data .search-social a {
+    height: 30px;
+    margin: 5px;
+}
+
+
+.header-container .search-social-data .search-social .social {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.header-container .search-social-data .search-social .instagram {
+    background: linear-gradient(45deg, #751CCC, #A81CAB, #E41C85, #FDA72C, #FBC60B);
+    color:#FFF;
+}
+
+.header-container .search-social-data .search-social .facebook {
+    color: #404080;
+}
+
+.header-container .search-social-data .search-social .search-header {
+    position: relative;
+}
+
+.header-container .search-social-data .search-social .search-header .search-btn {
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #0052A4;
+    color:#FFF;
+    border: none;
+    font-size: 24px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+
+
+.header-container .search-social-data .search-social .search {
+    height: 30px;
+    width: 200px;
+}
+
+
+
+.header-container .navbar {    
+    height: 25%;
+}
+
+.header-container .navbar ul {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    color: #fff;
+    background-color: #002C85;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.header-container .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Estilo Banner */
+
+.banner img{
+    width: 1800px;
+    margin-bottom: 50px;
+}
+
+main h2 {  
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #848484;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+/* Estilo noticias*/ 
+
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.news .news-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+.news-container .news-content {
+    width: 450px;
+    margin: 20px;    
+}
+
+.news .news-container .news-content a img {
+    height: 420px;
+    width: 100%;
+    border-radius: 60px;
+    padding-bottom: 20px;
+}
+
+.news .news-container .news-content h3 {
+    color: #848484;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news .news-container .news-content p {
+    color: #848484;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.news .seemore {
+    text-align: center;
+    background-color: #0052A4;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+    padding: 15px;
+    width: 600px;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Estilo Serviços*/
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 40px;
+}
+
+.services .services-container ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.services .services-container ul li {
+    width: 350px;
+    margin: 10px;
+    background-color: #00662C;
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+    border-radius: 5px;    
+}
+
+.services .services-container ul li a{        
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.services .services-container ul li a ion-icon{       
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+/* Estilo Turismo*/
+
+.tourism {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.tourism .tourism-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.tourism .tourism-container .tourism-countent {    
+    margin-left: 7px;
+    margin-right: 7px;
+    position: relative;
+}
+
+.tourism .tourism-container .tourism-countent .text-absolute {    
+    position: absolute;
+    width: 80%;
+    padding: 30px;    
+    bottom: -30px;
+    left: 40px;
+    text-align: center;
+    border-radius: 30px;
+    color: #FFF;
+    font-size: 24px;
+}
+
+.tourism .tourism-container .tourism-countent .text-absolute.layout1 {
+ background-color: #C86801;
+}
+
+.tourism .tourism-container .tourism-countent .text-absolute.layout2 {
+    background-color: #00662C;
+}
+
+.tourism .tourism-container .tourism-countent .text-absolute.layout3 {
+    background-color: #002C85;
+}
+.tourism .tourism-container div img {
+    width: 100%;
+    height: 280px;
+    border-radius: 40px;
+}
+
+/* Estilo Galeria*/
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px; 
+    margin-bottom: 40px;
+}
+
+.gallery .gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    align-items: center;    
+}
+
+.gallery .gallery-container div {
+    border-radius: 60px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+
+.gallery .gallery-container div img {
+    height: 420px;
+    width: 450px;
+    border-radius: 30px;
+}
+
+/*Estilo Videos */
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.videos .videos-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    align-items: center;    
+}
+
+.videos .videos-container .video-content { 
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 350px;
+    margin: 15px;    
+}
+
+.videos .videos-container .video-content a { 
+    text-align: center;
+}
+
+.videos .videos-container .video-content .video-relative {
+    position: relative;  
+}
+
+.videos .videos-container .video-content .video-relative img {
+    width: 100%;
+    height: 300px;
+}
+
+.videos .videos-container .video-content .video-relative .image-absolute {
+    position: absolute;    
+    top: 0;      
+    color: #fff;
+    font-size: 50px;
+    background-color: #000;
+    width: 100%;
+    height: 300px;
+    opacity: 0.5;  
+}
+.videos .videos-container .video-content .video-relative .image-absolute2 {
+    position: absolute;    
+    top: 105px;
+    left: 190px;      
+    color: #fff;    
+    font-size: 100px;    
+    
+}
+
+.videos .videos-container .video-content p {
+    color: #848484;
+}
+
+/*Estilos Informação*/
+
+.information {
+    display: flex;
+    justify-content: center;
+    padding-left: 80px;
+    padding-right: 80px;
+      
+}
+
+.information .information-container {
+    width: 400px;
+    background-color: blue;    
+    margin: 40px;
+    border-radius: 70px;
+    border: 1px solid rgb(172, 169, 169);
+}
+
+.information .information-container img {
+    width: 100%;
+    border-radius: 70px;
+    height: 100%;
+}
+
+/*Estilo Concurso*/
+
+.concursos-container {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    background-color:#002C85;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.concursos-container .concursos-content {
+    margin:15px; 
+    color: #FFF;    
+}
+
+.concursos-container .concursos-content .btn {
+       display: flex;
+       justify-content: flex-end;
+       padding-right: 30px;
+}
+
+.concursos-container .concursos-content .btn .see-all {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #DCA700;
+    border: none;
+    justify-content: flex-end;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 130px;    
+    padding: 10px;     
+}
+
+.concursos-container .concursos-content ul {
+    margin:0px;
+    padding-right: 10px;    
+}
+
+.concursos-container .concursos-content ul li  {    
+    margin-top: 30px;
+    max-width: 80%;    
+}
+
+.concursos-container .concursos-content ul li a {   
+    text-decoration: none;
+    color: #FFF;        
+}
+.concursos-container .concursos-content ul li a div {    
+        display: flex;
+        flex-direction: row;
+}
+
+.concursos-container .concursos-content ul li a p{ 
+    border-bottom: 1px solid #FFF;
+    padding: 5px;    
+}
+
+.concursos-container .concursos-content ul li a ion-icon{   
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+/*Estilo Rodapé*/
+
+.footer { 
+    background-color: #011655;
+    color: #fff;
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer .logo img {
+    display: flex;
+    flex-direction: row;
+    border-radius: 180px;
+    height: 100px;
+}
+
+.footer .logo div {
+    margin-left: 15px;
+    font-size: 24px;
+}
+
+.footer .secs {
+    column-count: 2;
+}
+
+.footer a {
+    color: #fff;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
